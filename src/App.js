@@ -3,7 +3,13 @@ import './App.css';
 export default function App() {
   return (
     <div className="App">
-     Weather React 
+     <h1>Weather React </h1>
+    <footer>
+     <a href="https://github.com/maria-nr/final-project-react" target="_blank" >
+     Open-source on Git hub 
+     </a>
+     {" "} by Maria Narvaez 
+     </footer>
     </div>
   );
 }
