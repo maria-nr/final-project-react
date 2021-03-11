@@ -1,8 +1,10 @@
+import React from "react";
 import './App.css';
 
 export default function App() {
   return (
     <div className="App">
+      <div className="container">
      <h1>Weather React </h1>
     <footer>
      <a href="https://github.com/maria-nr/final-project-react" target="_blank" >
@@ -10,6 +12,7 @@ export default function App() {
      </a>
      {" "} by Maria Narvaez 
      </footer>
+     </div>
     </div>
   );
 }
