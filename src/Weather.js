@@ -14,6 +14,8 @@ export default function Weather() {
                 </div>
                 </div>
             </form>
+            <div className="background">
+                    
             <div className="top-tittle">
             <h4> Madrid </h4>
             <h1> <span className="temperature">25</span> <span className="unit">ºC</span></h1> 
@@ -33,10 +35,8 @@ export default function Weather() {
                 </div>
                 <div className="col-8">
                 <div className="clearfix">
-                <div className="background">
-                    <img src="https://img.freepik.com/free-vector/happy-woman-walking-rainy-day-with-umbrella-isolated-flat-vector-illustration-cartoon-female-character-being-outdoors-autumn-rain-landscape-weather-concept_74855-10087.jpg?size=626&ext=jpg" ></img>
-                </div>
                 
+                </div>
                 </div>
             </div>    
             </div>
