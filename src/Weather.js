@@ -18,7 +18,7 @@ export default function Weather() {
                     
             <div className="top-tittle">
             <h4> Madrid </h4>
-            <h1> <span className="temperature">25</span> <span className="unit">ºC</span></h1> 
+            <div><h1> <span className="temperature">25</span><span className="unit">ºC</span><span className="unit">ºF</span></h1> </div>
             <p> Sunny </p> 
             </div>
 
