@@ -1,0 +1,77 @@
+.weather {
+    border: 1px solid #41B7B7;
+    text-align: center;
+    font-family: sans-serif;
+    border-radius: 5px;
+}
+
+
+
+.weather h1 {
+   color: #16A2B8; 
+   font-weight: 100;
+   margin-bottom: 0;
+}
+
+.weather h4{
+    margin-bottom: 0;
+    color: #16A2B8;
+}
+
+.top-tittle{
+    padding: 20px;
+    margin: 20px 0 0 0;
+}
+
+
+.weather form {
+   margin: 15px;
+   padding: 0 auto;
+}
+.form-control {
+    margin-left: 10px;
+    border-radius: 1.25rem;
+}
+
+.btn-info {
+    display: flex;
+    padding: 0 auto;
+    justify-content: end;
+    margin-left: -62px;
+    background-color: transparent;
+    border-radius: 20px;
+} 
+
+.btn-info:hover{
+    background-color: #CEDFFF;
+    border-color: #80BDFF;
+}
+
+.top-tittle {
+    text-align: left;
+}
+
+.weather img{
+    max-width: 400px;
+}
+
+.weather ul {
+    margin: 0;
+    padding: 20px;
+    text-align: left;
+}
+.weather li{
+    font-size: 20px;
+    list-style: none;
+}
+
+.title-details {
+    color: #c0c5cb;
+}
+
+.backgroung{
+   background-image: url("https://img.freepik.com/free-vector/happy-woman-walking-rainy-day-with-umbrella-isolated-flat-vector-illustration-cartoon-female-character-being-outdoors-autumn-rain-landscape-weather-concept_74855-10087.jpg?size=626&ext=jpg");
+}
+
+
+   
