@@ -12,8 +12,6 @@
     
 }
 
-
-
 .weather h1 {
    color: #16A2B8; 
    font-weight: 100;
@@ -92,6 +90,11 @@ font-size: 18px;
   position: relative;
   top: -15px;
   margin-left: 3px;
+}
+p.date{
+    text-align: right;
+    margin-left: 366px;
+    color: #c0c5cb;
 }
 
    
