@@ -2,6 +2,7 @@ import React, {useState} from "react";
 import "./Weather.css";
 import axios from "axios";
 import ReactLoading from 'react-loading';
+import ActualDate from "./ActualDate";
 
 export default function Weather(props) {
 const [data, setData]= useState({ready:false});
@@ -13,7 +14,7 @@ const [data, setData]= useState({ready:false});
             city: response.data.name,
             humidity: response.data.main.humidity,
             description: response.data.weather[0].description,
-           date: "Sun 8:00 am",
+           date: new Date(response.data.dt * 1000),
         })
     }
     if (data.ready) {
@@ -27,7 +28,9 @@ const [data, setData]= useState({ready:false});
                         <div className ="col-1">
                     <input type="submit" value= "🔎" className="btn btn-info " />
                     </div>
-                    <p className="date">{data.date}</p>
+                    <p className="date"> 
+                    <ActualDate date={data.date} />
+                    </p>
                     </div>
                 </form>
                 <div className="background">
