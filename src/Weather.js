@@ -3,6 +3,7 @@ import "./Weather.css";
 import axios from "axios";
 import ActualDate from "./ActualDate";
 import WeatherInfo from "./WeatherInfo";
+import WeatherForecast from "./WeatherForecast";
 
 export default function Weather(props) {
 const [data, setData]= useState({ready:false});
@@ -17,7 +18,7 @@ const [city, setCity]= useState(props.defaultCity);
             description: response.data.weather[0].description,
            date: new Date(response.data.dt * 1000),
            icon: response.data.weather[0].icon,
-        })
+        });
     }
 
     function search() {
@@ -53,13 +54,11 @@ const [city, setCity]= useState(props.defaultCity);
                     </div>
                 </form>
                 <WeatherInfo data={data}/>
-              
+                <WeatherForecast city={data.city} />
             </div>
-            
         );
 
     } else {
-
         search();
     return "loading...";
 }
