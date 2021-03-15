@@ -1,4 +1,5 @@
 import React from "react";
+import WeatherIcon from "./WeatherIcon";
 
  export default function WeatherInfo (props) {
      return (
@@ -11,8 +12,7 @@ import React from "react";
                         <p className="text-capitalize"> {props.data.description} </p> 
                         </div>
                         <div className="icon">
-                            <img src={props.data.icon} alt={props.data.description} className="float right"  />
-        
+                            <WeatherIcon code={props.data.icon} />
                         </div>
             
                         <div className="row">
