@@ -1,5 +1,5 @@
 import React from "react";
-
+import Images from "./Images";
 
 export default function WeatherIcon(){
     const codeMapping = {
@@ -24,6 +24,6 @@ export default function WeatherIcon(){
 
     }
     return
-        //<Images icon="{codeMapping[props.code]}"/> 
+        <Images icon={codeMapping[props.code]}/> 
     ;
 }
