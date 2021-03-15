@@ -12,15 +12,13 @@ function handleForecastResponse(response){
     setLoaded(true);
 
 }
- if (loaded) {
+ if (loaded && props.city === forecast.city.name) {
      return (
          <div className="WeatherForecast row">
                 <ForecastPreview data={forecast.list[0]}/>
-                <ForecastPreview data={forecast.list[1]}/>
-                <ForecastPreview data={forecast.list[2]}/>
-                <ForecastPreview data={forecast.list[3]}/>
-                <ForecastPreview data={forecast.list[4]}/>
-                <ForecastPreview data={forecast.list[5]}/>
+               
+                
+               
          </div>
      );
  } else {

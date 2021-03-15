@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./WeatherIcon.css";
 
 
 export default function WeatherIcon(props){
@@ -24,6 +24,6 @@ export default function WeatherIcon(props){
         "50n": "mist.jpg",
     };
     return (
-    <img src={`/Images/${codeMapping[props.code]}`} alt="weather" />
+    <img src={`/Images/${codeMapping[props.code]}`} alt="weather" className="centralImage" />
     )
 }

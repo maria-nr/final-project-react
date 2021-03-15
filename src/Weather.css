@@ -4,12 +4,6 @@
     font-family: sans-serif;
     border-radius: 5px;
     
-    background-size: 80% auto;
-    background-repeat: no-repeat;
-    background-position-x: 4px;
-    background-position-y: 148px;
-    background-position: bottom 8px right -4px;
-    
 }
 
 .weather h1 {
@@ -26,7 +20,11 @@
 
 .top-tittle{
     padding: 20px;
-    margin: 20px 0 0 0;
+    margin: 0;
+    text-align: center;
+   background-color: blanchedalmond;
+   width: 300px;
+   border-radius: 0 15px 15px 0;
 }
 
 
@@ -43,23 +41,15 @@
     display: flex;
     padding: 0 auto;
     justify-content: end;
-    margin-left: -66px;
+    margin-left: -85px;
     background-color: transparent;
-    border-radius: 20px;
+    border-color:transparent;
 } 
 
 .btn-info:hover{
     background-color: #CEDFFF;
-    border-color: #80BDFF;
-}
-
-.top-tittle {
-    text-align: left;
-}
-
-.weather img{
-    max-width: 400px;
-    display: flex;
+    border-radius: 30px;
+    
 }
 
 .weather ul {

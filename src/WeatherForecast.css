@@ -2,3 +2,6 @@
     display:block;
     
 }
+.ForecastPreview {
+    max-width: 100px;
+}
