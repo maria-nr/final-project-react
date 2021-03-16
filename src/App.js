@@ -9,7 +9,7 @@ export default function App() {
      
      <Weather defaultCity="Madrid"/>
     <footer>
-     <a href="https://github.com/maria-nr/final-project-react" target="_blank" >
+     <a href="https://github.com/maria-nr/final-project-react" target="_blank" rel="noreferrer" >
      Open-source on Git hub 
      </a>
      {" "} by Maria Narvaez 
