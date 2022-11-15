@@ -1,5 +1,6 @@
 import React, {useState} from "react";
 import "./Weather.css";
+import "./WeatherDailyForecast.js";
 import axios from "axios";
 import ActualDate from "./ActualDate";
 import WeatherInfo from "./WeatherInfo";
@@ -54,6 +55,7 @@ const [city, setCity]= useState(props.defaultCity);
                     </div>
                 </form>
                 <WeatherInfo data={data}/>
+                <WeatherDailyforecast />
                
             </div>
         );
